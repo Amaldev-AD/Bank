@@ -126,7 +126,7 @@ function withdraw() {
 
 function logout() {
     localStorage.clear()
-    window.location = '/login.html'
+    window.location = './login.html'
 }
 
 form.addEventListener('click', (e) => {
